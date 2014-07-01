@@ -1,0 +1,1 @@
+javascript:(function(){var n=0;while(document.getElementsByTagName("link")[n].getAttribute("rel")!="canonical"){n++};window.open("http://www.directtextbook.com/isbn/"+document.getElementsByTagName("link")[n].getAttribute("href").slice(-10))})();
